@@ -1,0 +1,24 @@
+<html>
+  <head>
+ <script type="text/javascript">
+  function moverTexto()
+  {
+    var texto =document.getElementById("c2").value;
+    document.getElementById("c1").value=texto;
+    alert(texto);
+  }
+  </script>
+  </head>
+
+<body>
+  <h1>
+<div style="text-align:center">
+   <label for="c1">Campo 1 solo lectura </label><br>
+  <input type="text" name="" id="c1" readonly="readonly"><br>
+   <label for="c2">Campo 2 ingresar dato</label><br>
+  <input type="text" name="" id="c2"><br>
+<button onclick="moverTexto()">mover informacion campo 2 a campo 1</button><br> 
+</div>
+</h1>
+</body>
+</html>
